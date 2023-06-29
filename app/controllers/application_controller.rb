@@ -8,9 +8,10 @@ class ApplicationController < ActionController::Base
   end
   helper_method :current_user
 
-  def authorize
-    redirect_to '/login' unless current_user
-  end
+  # Include authorize if you want certain pages off limits to users not logged in
+  # def authorize
+  #   redirect_to '/login' unless current_user
+  # end
 
   private
 
