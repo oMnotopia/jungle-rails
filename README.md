@@ -2,6 +2,10 @@
 
 A mini e-commerce application built with Rails 6.1 for purposes of teaching Rails by example.
 
+## Features
+
+Users can add create accounts and login/logout. When logged in they have the ability to view all the products and individual product pages. Users can also add items to a cart that keeps track of what was added and then using Stripe integration checkout and pay for their products.
+
 ## Setup
 
 1. Run `bundle install` to install dependencies
